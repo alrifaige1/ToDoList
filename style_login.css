@@ -1,0 +1,91 @@
+/* ////////////// Partie Deskop ////////////////// */
+html,
+body{
+    display: flex;
+    background-color:#E5E5E5;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    color: #222222;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+/* /////////////// Partie Mobile ///////////////// */
+
+@media screen and (min-width: 1000px){
+    html,
+    body {
+        background-color: hsla(0, 0%, 100%, 1);
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+input{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    min-width: 350px; 
+    min-height: 38px;
+    line-height: 18,75px;
+    padding-left: 16px;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.AdresseMail > *{
+    margin-bottom: 8px;
+}
+
+button{
+    border-radius: 4px;
+    color: #FFFFFF;
+    align-items: center; 
+    justify-content: center;
+    border: none;
+    min-width : 371px;
+    min-height: 48px;
+    background: #FF7675;
+    margin-top: 24px;
+}
+button:focus{
+    background: #E06867;
+}
+label{
+    margin-top: 24px;
+    display: block;
+}
+.MDPouCompte{
+    display: grid;
+    text-align: center;
+}
+.errorMessage{
+    display: none;
+    color: #D63031;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 8px;
+}
+#errorIdentifiant{
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#successIdentifiant{
+    display: none;
+    text-align: center;
+    color:hsla(145, 63%, 42%, 1);
+    margin-top: 32px;
+}
+
+.liens{
+    text-decoration: none;
+    color: #FF7675;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-top: 32px;
+}

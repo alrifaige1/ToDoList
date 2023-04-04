@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="./main.js"></script>
+</head>
+<body>
+    
+    <div id="overlay_menu" class="hidden">
+        <div class="overlay_menu_sidebar">
+            <img src="images/mdi_close.svg" alt="" class="close_button">
+            <div class="home_n_mail">
+                <img src="images/mdi_home.svg" alt="">
+                <p class="owner_mail">asmadjenebasophie@AS.com</p>
+            </div>
+            <div class="menu_list_title">
+                <p class="menu_title">Mes listes</p>
+                <div class="list_title_line"></div>
+            </div>
+            <ul class="menu_list">
+                <li class="menu_item">
+                    <p class="menu_item_text">To do today</p>
+                    <p class="menu_task_count">2</p>
+                </li>
+                <li class="menu_item">
+                    <p class="menu_item_text">Projet tutoré</p>
+                    <p class="menu_task_count">5</p>
+                </li>
+                <li class="menu_item">
+                    <p class="menu_item_text">Stage</p>
+                </li>
+            </ul>
+            <form class="menu_add_list">
+                <label for="name"></label>
+                <button class="menu_add_button" type="submit"><img src="images/mdi_add.svg" alt=""></button>
+                <input type="text" name="name" id="name" class="menu_add_text" placeholder="Nouvelle liste" class="new_list_name">
+            </form>
+            <div class="menu_space"></div>
+            <footer class="menu_title menu_footer">
+                <div class="menu_footers">
+                    <a href="parametres.html"><img src="images/mdi_settings.svg" alt=""></a>
+                    <p class="footer_text">Paramètres</p>
+                </div>
+                <div class="menu_footers logout">
+                    <a href="#"><img src="images/mdi_power_settings_new.svg" alt=""></a>
+                    <p class="footer_text">Déconnexion</p>
+                </div>
+        </div>
+        </div>
+        <div class="main">
+            <header>
+                <img src="images/mdi_view_headline.svg" class="menu_button">
+                <h1>Accueil / Prochaines tâches</h1>
+            </header>
+            <main>
+                <ul class="list">
+                    <li class="list_element">
+                        <input type="checkbox" class="checkbox">
+                        <div class="list_text">
+                            <p class="list_item">Titre tache</p>
+                            <p class="list_detail">1 sur 1 ● Echéance : date ● Notes</p>
+                        </div>
+                        <img src="images/mdi_delete.svg" alt="">
+                    </li>
+                    <li class="list_element">
+                        <input type="checkbox" class="checkbox">
+                        <div class="list_text">
+                            <p class="list_item">Titre tache</p>
+                            <p class="list_detail">1 sur 1 ● Echéance : date ● Notes</p>
+                        </div>
+                        <img src="images/mdi_delete.svg" alt="">
+                    </li>
+                </ul>
+            </main>
+        </div>
+        <div id="overlay_edit" class="hidden_edit">
+            <div class="overlay_edit_sidebar">
+                <img src="images/mdi_close.svg" alt="" class="edit_close_button">
+                <form class="edit_form" action="PUT">
+                    <label for="titre">Titre  
+                    </label>
+                    <input type="text" id="titre" name="titre" value="Ma Liste">
+                    <label for="etapes">
+                        Etapes  
+                    </label>
+                    <div class="liste_etapes">
+                    <div class="etape">
+                        <input type="checkbox" class="checkbox">
+                        <p class="titre_etape">Etape 1</p>
+                        <img src="images/mdi_remove_circle_outline.svg" alt="">
+                    </div>
+                    <div class="etape">
+                        <input type="checkbox" class="checkbox">
+                        <p class="titre_etape">Etape 2</p>
+                        <img src="images/mdi_remove_circle_outline.svg" alt="">
+                    </div>
+                </div>
+                    <div class="nouvelle_etape">
+                    <input type="text" placeholder="Nouvelle étape" id="etapes" name="etapes">
+                    <img class="add_button" src="images/mdi_add_b.svg" alt="">
+                </div>
+            
+                    <label for="echenace">Echéance
+                    </label>
+                    <input type="date" id="echeance" name="echeance">
+                    <label for="note">Note
+                    </label>
+                    <textarea name="note" id="note" cols="30" rows="10"></textarea>
+                    <div class="edit_buttons">
+                    <button class="send_edit_button button" type="button" >Envoyer</button>
+                    <button class="cancel_button" type="button">Annuler</button>
+                </div>
+                    
+                </form>
+            </div>
+            
+            </div>
+           
+</body>
+</html>

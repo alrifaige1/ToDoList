@@ -1,0 +1,82 @@
+/* ////////////// Partie Deskop + Mobile ////////////////// */
+html,
+body{
+    display: flex;
+    background-color:white;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    color: #222222;
+    min-height: 100%;
+    min-width: 100%;
+    flex-direction: column;
+}
+
+/* /////////////// Partie Mobile ///////////////// */
+
+@media screen and (min-width: 1000px){
+    html,
+    body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+input{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    min-width: 350px;
+    min-height: 38px;
+    line-height: 18,75px;
+    padding-left: 16px;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+button:focus{
+    background: #E06867;
+}
+
+.AdresseMail > *{
+    margin-bottom: 8px;
+}
+
+button{
+    border-radius: 4px;
+    color: #FFFFFF;
+    align-items: center; 
+    justify-content: center;
+    border: none;
+    min-width : 371px;
+    min-height: 48px;
+    background: #FF7675;
+    margin-top: 24px;
+}
+label{
+    margin-top: 24px;
+    display: block;
+}
+
+.errorMessage{
+    display: none;
+    color:hsla(360, 67%, 51%, 1);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 8px;
+}
+#successEmail{
+    display: none;
+    text-align: center;
+    color:hsla(145, 63%, 42%, 1);
+    position:absolute;
+    top: 65%;
+}
+#successMDP{
+    display: none;
+    text-align: center;
+    color:hsla(145, 63%, 42%, 1);
+    margin-top: 32px;
+}

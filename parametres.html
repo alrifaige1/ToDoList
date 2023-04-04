@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="parametres.css" />
+
+    <script src="https://kit.fontawesome.com/f5ccf45eb3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100&family=Caveat&family=Montserrat:wght@100&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <script type="module" src="./main_settings.js"></script>
+
+
+    <title>Page6_Parametres</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div id="overlay_menu" class="hidden">
+            <aside class="menu_sidebar">
+                <article class="sidebar">
+                    <!-- aside -->
+                    <img src="images/mdi_close.svg" alt="" class="close_button">
+
+                    <div class="parametrHome">
+                        <div class="home">
+                            <!-- <div class="iconeHome"> -->
+                            <a class="lienIcone" href="home.html"> <i class="fa-sharp fa-solid fa-house"></i></a>
+                            <!-- </div> -->
+                        </div>
+                        <div class="notreAdresse">
+                            <p>
+                                asmadjenebasophie@AS.com
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Mes listes -->
+
+                    <div class="mesListes">
+                        <div class="liste">
+                            <p>Mes listes </p>
+                        </div>
+
+                        <div class="ligne">
+                            <p>
+                                <hr>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- To do today -->
+                    <div class="menu_list">
+
+                        <div class="containBox">
+                            <div class="boxtext">
+                                <p> To do today</p>
+                            </div>
+
+
+                            <div class="box">
+                                <div class="nB">2</div>
+                            </div>
+                        </div>
+
+                        <!-- projet tutore -->
+
+                        <div class="containBox">
+                            <div class="boxtext">
+                                <p>Projet tutoré</p>
+                            </div>
+
+
+                            <div class="box">
+                                <div class="nB">5</div>
+                            </div>
+                        </div>
+
+                        <!--   Stage -->
+                        <div class="containBox">
+                            <div class="stage boxtext">Stage</div>
+                        </div>
+                    </div>
+
+                    <!--  Nouvelle liste -->
+
+
+                    <form id="formulaire" class="menu_add_list" action="">
+                        <div class="formulaire">
+                            <div class="new">
+                                <button name="nouvelle-liste"><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                            <div class="new">
+                                <input type="text" name="name" id="name" class="menu_add_text"
+                                    placeholder="Nouvelle liste" class="new_list_name">
+
+                            </div>
+                        </div>
+
+                    </form>
+                    <div class="spacer"></div>
+
+                    <!-- parametre et deconnection -->
+                    <div class="boxBas">
+                        <div class="deconnection">
+                            <div class="box">
+                                <a class="box" href="Parametres"> <i class="fa-solid fa-gear"></i></a>
+                            </div>
+
+                            <div class="box">
+                                <p class="padding">Paramètres</p>
+                            </div>
+                        </div>
+
+
+                        <div class="deconnection">
+                            <div class="box">
+                                <p><i class="logout fa-solid fa-power-off"></i></p>
+                            </div>
+
+
+                            <div class="box">
+                                <p class="padding">Déconnexion </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </article>
+
+            </aside>
+        </div>
+
+        <!-- aside n'apparait pas lorsqu'on est en mobile first -->
+        <!-- <div class="content"> -->
+
+        <div class="content">
+
+            <div class="topBar">
+                <div class="Menu">
+                    <div class="iconeMenu">
+                        <img class="menu_button" src="images/mdi_view_headline.svg" alt="">
+                    </div>
+                </div>
+                <div class="parametres">
+                    <p>Paramètres</p>
+
+                </div>
+            </div>
+
+            <div class="destopParametres">
+
+
+
+                <h1>Paramètres</h1>
+            </div>
+
+            <div class="wrapper2">
+
+                <div class="content">
+
+                    <div class="boxadresseemail">
+                        <div class="adressEmail">
+                            <h3>Adresse e-mail</h3>
+                        </div>
+
+
+                        <div class="adresseEmailActuelle">
+                            <h3>Adresse e-mail actuelle : </h3>
+                            <p> asmadjenebasophie@AS.com</p>
+                        </div>
+                    </div>
+
+
+                    <!--section nouvelle adresse email-->
+                    <form class="mail_form">
+
+
+
+                        <div class="labelParametres"><label for="email">Nouvelle adresse e-mail</label>
+                        </div>
+                        <div class="inputParametres">
+                            <input id="email" name="email" placeholder="mail@provider.fr" type="email" required />
+                        </div>
+
+
+
+
+                        <div class="labelParametres">
+                            <label for="confirmEmail">Confirmer l'adresse e-mail</label>
+                        </div>
+
+                        <div class="inputParametres">
+                            <input id="confirmEmail" name="email" placeholder="mail@provider.fr" type="email"
+                                required />
+                        </div>
+                        <div id="containerMessageError">
+                            <p id="messageVrai" class="messageVrai">Error l'adresse n'a pas etait modifier </p>
+                        </div>
+                        <button type="submit" id="button" class="main_button">Modifier l'adresse e-mail</button>
+
+                    </form>
+
+
+
+                    <!--section formulaire nouveau mot de passe-->
+                    <!-- <section> -->
+
+                    <div class="adressEmail">
+                        <h3>Mot de Passe</h3>
+                    </div>
+
+
+
+                    <form class="mdp_form">
+
+                        <div class="labelParametres">
+                            <label for="pass">Mot de Passe actuel </label>
+                        </div>
+                        <div class="inputParametres">
+                            <input type="password" id="pass" name="password" placeholder="password" minlength="8"
+                                required>
+                        </div>
+
+
+                        <div class="labelParametres">
+                            <label for="newpass">Nouveau mot de passe</label>
+                        </div>
+                        <div class="inputParametres">
+                            <input type="password" id="newMdp" name="password" placeholder="password" minlength="8"
+                                required>
+                        </div>
+
+                        <div class="labelParametres">
+                            <label for="confirmMdp">Confirmer le Mot de Passe </label>
+                        </div>
+                        <div class="inputParametres">
+                            <input type="password" id="confirmMdp" name="password" placeholder="password" minlength="8"
+                                required>
+                        </div>
+
+                        <div id="containerMessageErrorMdp">
+                            <p id="messageVraiMdp" class="messageVrai">Erreur du mot de passe </p>
+                        </div>
+
+
+                        <button type="submit" class="main_button" id="button2">Modifier le mot de passe</button>
+
+                    </form>
+                    <!-- </section> -->
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <!-- </  content -->
+
+
+
+
+</body>
+
+
+</html>
