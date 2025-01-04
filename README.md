@@ -86,7 +86,7 @@ Contribution
 
 Les contributions sont les bienvenues ! Suivez ces étapes pour contribuer :
 
-Forker le dépôt.
+Créer le dépôt.
 
 Créez une nouvelle branche :
 
