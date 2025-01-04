@@ -2,6 +2,10 @@
 
 ## 🚀 Bienvenue sur mon projet GitHub !
 
+## Contribution
+Les contributions sont les bienvenues ! Suivez ces étapes pour contribuer :
+Créer le dépôt.
+
 # Créez une nouvelle branche :
 git checkout -b feature/nom-de-votre-fonctionnalite
 
@@ -13,10 +17,10 @@ git push origin feature/nom-de-votre-fonctionnalite
 
 # Créez une pull request.
 
-### Aperçu
+## Aperçu
 Ce projet est une application web conçue pour aider les utilisateurs ou les entreprises à gérer des tâches efficacement. L'application permet aux utilisateurs de créer et de gérer des comptes, de se connecter et d'organiser leurs listes de tâches facilement. Elle est réalisée en HTML, CSS et JavaScript et a été développée avec Visual Studio Code.
 
-### Fonctionnalités
+## Fonctionnalités
 
 🧑‍💻 Gestion des comptes utilisateurs : Créer, mettre à jour et supprimer des comptes utilisateurs.
 
@@ -26,7 +30,7 @@ Ce projet est une application web conçue pour aider les utilisateurs ou les ent
 
 📱 Design réactif : Optimisé pour une utilisation sur ordinateurs et appareils mobiles.
 
-### Technologies utilisées
+## Technologies utilisées
 
 **HTML** : Structure de l'application.
 
@@ -36,7 +40,7 @@ Ce projet est une application web conçue pour aider les utilisateurs ou les ent
 
 **Visual Studio Code** : Environnement de développement.
 
-### Installation et configuration
+## Installation et configuration
 
 Suivez ces étapes pour exécuter le projet en local !!!
 
@@ -92,13 +96,6 @@ Ajouter une base de données pour un stockage de données persistant.
 Introduire la catégorisation et le marquage des tâches.
 
 Ajouter des notifications pour les échéances des tâches.
-
-
-### Contribution
-
-Les contributions sont les bienvenues ! Suivez ces étapes pour contribuer :
-
-Créer le dépôt.
 
 
 # ✨ Visitez le dépôt et explorez le projet !
