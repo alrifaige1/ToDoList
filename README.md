@@ -1,12 +1,12 @@
-🌟 Application web de Gestion de ToDoList pour une entreprise ou utilisateur
+🌟 # Application web de Gestion de ToDoList pour une entreprise ou utilisateur
 
-🚀 Bienvenue sur mon projet GitHub !
+🚀 ## Bienvenue sur mon projet GitHub !
 
-Aperçu
+### Aperçu
 
 Ce projet est une application web conçue pour aider les individus ou les entreprises à gérer leurs tâches efficacement. L'application permet aux utilisateurs de créer et de gérer des comptes, de se connecter et d'organiser leurs listes de tâches facilement. Elle est construite en HTML, CSS et JavaScript et a été développée avec Visual Studio Code.
 
-Fonctionnalités
+### Fonctionnalités
 
 🧑‍💻 Gestion des comptes utilisateurs : Créer, mettre à jour et supprimer des comptes utilisateurs.
 
@@ -16,7 +16,7 @@ Fonctionnalités
 
 📱 Design réactif : Optimisé pour une utilisation sur ordinateurs et appareils mobiles.
 
-Technologies utilisées
+### Technologies utilisées
 
 HTML : Structure de l'application.
 
@@ -26,11 +26,11 @@ JavaScript : Fonctionnalités et interactions dynamiques.
 
 Visual Studio Code : Environnement de développement.
 
-Installation et configuration
+### Installation et configuration
 
 Suivez ces étapes pour exécuter le projet en local :
 
-Cloner le dépôt :
+## Cloner le dépôt :
 
 git clone https://github.com/alrifaige1/ToDoList.git
 
