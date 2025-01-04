@@ -1,6 +1,6 @@
-🌟 # Application web de Gestion de ToDoList pour une entreprise ou utilisateur
+#🌟  Application web de Gestion de ToDoList pour une entreprise ou utilisateur
 
-🚀 ## Bienvenue sur mon projet GitHub !
+## 🚀 Bienvenue sur mon projet GitHub !
 
 ### Aperçu
 
