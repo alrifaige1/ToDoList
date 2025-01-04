@@ -3,22 +3,19 @@
 ## 🚀 Bienvenue sur mon projet GitHub !
 
 
-
 # Créez une nouvelle branche :
-
 git checkout -b feature/nom-de-votre-fonctionnalite
 
 # Validez vos modifications :
-
 git commit -m "Ajoutez votre message ici"
 
 # Poussez la branche :
-
 git push origin feature/nom-de-votre-fonctionnalite
 
 # Créez une pull request.
-### Aperçu
 
+
+### Aperçu
 Ce projet est une application web conçue pour aider les utilisateurs ou les entreprises à gérer des tâches efficacement. L'application permet aux utilisateurs de créer et de gérer des comptes, de se connecter et d'organiser leurs listes de tâches facilement. Elle est réalisée en HTML, CSS et JavaScript et a été développée avec Visual Studio Code.
 
 ### Fonctionnalités
