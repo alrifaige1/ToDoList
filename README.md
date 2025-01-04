@@ -41,21 +41,22 @@ Ce projet est une application web conçue pour aider les utilisateurs ou les ent
 **Visual Studio Code** : Environnement de développement.
 
 ### Installation et configuration
-
 Suivez ces étapes pour exécuter le projet en local !!!
 
 ## Cloner le dépôt :
-
+```markdown
 git clone https://github.com/alrifaige1/ToDoList.git
+```
 
 ## Naviguer dans le répertoire du projet :
-
+```markdown
 cd ToDoList
+```
 
 ## Ouvrir dans Visual Studio Code :
-
+```markdown
 code .
-
+```
 Exécuter l'application :
 Ouvrez le fichier index.html dans votre navigateur web préféré pour commencer à utiliser l'application.
 
