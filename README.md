@@ -101,5 +101,5 @@ Introduire la catégorisation et le marquage des tâches.
 Ajouter des notifications pour les échéances des tâches.
 
 
-# ✨ Visitez le dépôt et explorez le projet !
+
 
