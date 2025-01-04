@@ -22,15 +22,15 @@ Ce projet est une application web conçue pour aider les utilisateurs ou les ent
 
 ### Fonctionnalités
 
-🧑‍💻 Gestion des comptes utilisateurs : Créer, mettre à jour et supprimer des comptes utilisateurs.
+🧑‍💻 **Gestion des comptes utilisateurs** : Créer, mettre à jour et supprimer des comptes utilisateurs.
 
-🔐 Authentification : Fonctionnalité de connexion sécurisée pour les utilisateurs.
+🔐 **Authentification** : Fonctionnalité de connexion sécurisée pour les utilisateurs.
 
-✅ Gestion des tâches : Ajouter, modifier, supprimer et organiser des tâches.
+✅ **Gestion des tâches** : Ajouter, modifier, supprimer et organiser des tâches.
 
-📱 Design réactif : Optimisé pour une utilisation sur ordinateurs et appareils mobiles.
+📱 **Design réactif** : Optimisé pour une utilisation sur ordinateurs et appareils mobiles.
 
-## Technologies utilisées
+### Technologies utilisées
 
 **HTML** : Structure de l'application.
 
@@ -40,7 +40,7 @@ Ce projet est une application web conçue pour aider les utilisateurs ou les ent
 
 **Visual Studio Code** : Environnement de développement.
 
-## Installation et configuration
+### Installation et configuration
 
 Suivez ces étapes pour exécuter le projet en local !!!
 
@@ -76,16 +76,16 @@ Ajoutez des tâches en précisant des détails tels que le nom et la date limite
 Modifiez ou supprimez des tâches si nécessaire.
 
 Marquez les tâches comme terminées pour suivre vos progrès.
-```markdown
-# Structure du projet
 
+# Structure du projet
+```markdown
 |-- index.html         # Fichier HTML principal
 |-- styles/            # Dossier contenant les fichiers CSS
 |   |-- main.css       # Feuille de style principale
 |-- scripts/           # Dossier contenant les fichiers JavaScript
 |   |-- app.js         # Logique principale en JavaScript
 |-- assets/            # Dossier pour les images et autres ressources
- ```bash
+ ```
 
 ## Améliorations futures
 
