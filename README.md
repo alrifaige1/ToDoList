@@ -6,39 +6,39 @@
 Les contributions sont les bienvenues ! Suivez ces étapes pour contribuer :
 Créer le dépôt.
 
-# Créez une nouvelle branche :
+##### Créez une nouvelle branche :
 git checkout -b feature/nom-de-votre-fonctionnalite
 
-# Validez vos modifications :
+##### Validez vos modifications :
 git commit -m "Ajoutez votre message ici"
 
-# Poussez la branche :
+##### Poussez la branche :
 git push origin feature/nom-de-votre-fonctionnalite
 
-# Créez une pull request.
+##### Créez une pull request.
 
 ### Aperçu
 Ce projet est une application web conçue pour aider les utilisateurs ou les entreprises à gérer des tâches efficacement. L'application permet aux utilisateurs de créer et de gérer des comptes, de se connecter et d'organiser leurs listes de tâches facilement. Elle est réalisée en HTML, CSS et JavaScript et a été développée avec Visual Studio Code.
 
-### Fonctionnalités
+#### Fonctionnalités
 
-🧑‍💻 **Gestion des comptes utilisateurs** : Créer, mettre à jour et supprimer des comptes utilisateurs.
+🧑‍💻 ****Gestion des comptes utilisateurs**** : Créer, mettre à jour et supprimer des comptes utilisateurs.
 
-🔐 **Authentification** : Fonctionnalité de connexion sécurisée pour les utilisateurs.
+🔐 ****Authentification**** : Fonctionnalité de connexion sécurisée pour les utilisateurs.
 
-✅ **Gestion des tâches** : Ajouter, modifier, supprimer et organiser des tâches.
+✅ ****Gestion des tâches**** : Ajouter, modifier, supprimer et organiser des tâches.
 
-📱 **Design réactif** : Optimisé pour une utilisation sur ordinateurs et appareils mobiles.
+📱 ****Design réactif**** : Optimisé pour une utilisation sur ordinateurs et appareils mobiles.
 
-### Technologies utilisées
+#### Technologies utilisées
 
-**HTML** : Structure de l'application.
+****HTML**** : Structure de l'application.
 
-**CSS** : Style pour une interface utilisateur attrayante.
+****CSS**** : Style pour une interface utilisateur attrayante.
 
-**JavaScript** : Fonctionnalités et interactions dynamiques.
+****JavaScript**** : Fonctionnalités et interactions dynamiques.
 
-**Visual Studio Code** : Environnement de développement.
+****Visual Studio Code**** : Environnement de développement.
 
 ### Installation et configuration
 Suivez ces étapes pour exécuter le projet en local !!!
@@ -47,16 +47,15 @@ Suivez ces étapes pour exécuter le projet en local !!!
 ```markdown
 git clone https://github.com/alrifaige1/ToDoList.git
 ```
-
 ## Naviguer dans le répertoire du projet :
 ```markdown
 cd ToDoList
 ```
-
 ## Ouvrir dans Visual Studio Code :
 ```markdown
 code .
 ```
+
 Exécuter l'application :
 Ouvrez le fichier index.html dans votre navigateur web préféré pour commencer à utiliser l'application.
 
