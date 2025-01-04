@@ -7,14 +7,17 @@ Les contributions sont les bienvenues ! Suivez ces étapes pour contribuer :
 Créer le dépôt.
 
 ##### Créez une nouvelle branche :
+```markdown
 git checkout -b feature/nom-de-votre-fonctionnalite
-
+```
 ##### Validez vos modifications :
+```markdown
 git commit -m "Ajoutez votre message ici"
-
+```
 ##### Poussez la branche :
+```markdown
 git push origin feature/nom-de-votre-fonctionnalite
-
+```
 ##### Créez une pull request.
 
 ### Aperçu
