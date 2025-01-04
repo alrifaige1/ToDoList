@@ -72,6 +72,7 @@ Structure du projet
 |   |-- app.js         # Logique principale en JavaScript
 |-- assets/            # Dossier pour les images et autres ressources
 
+
 Améliorations futures
 
 Implémenter une fonctionnalité backend avec une technologie telle que Node.js ou Python (Django/Flask).
