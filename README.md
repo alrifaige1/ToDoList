@@ -2,9 +2,24 @@
 
 ## 🚀 Bienvenue sur mon projet GitHub !
 
+
+
+# Créez une nouvelle branche :
+
+git checkout -b feature/nom-de-votre-fonctionnalite
+
+# Validez vos modifications :
+
+git commit -m "Ajoutez votre message ici"
+
+# Poussez la branche :
+
+git push origin feature/nom-de-votre-fonctionnalite
+
+# Créez une pull request.
 ### Aperçu
 
-Ce projet est une application web conçue pour aider les individus ou les entreprises à gérer leurs tâches efficacement. L'application permet aux utilisateurs de créer et de gérer des comptes, de se connecter et d'organiser leurs listes de tâches facilement. Elle est construite en HTML, CSS et JavaScript et a été développée avec Visual Studio Code.
+Ce projet est une application web conçue pour aider les utilisateurs ou les entreprises à gérer des tâches efficacement. L'application permet aux utilisateurs de créer et de gérer des comptes, de se connecter et d'organiser leurs listes de tâches facilement. Elle est réalisée en HTML, CSS et JavaScript et a été développée avec Visual Studio Code.
 
 ### Fonctionnalités
 
@@ -18,27 +33,27 @@ Ce projet est une application web conçue pour aider les individus ou les entrep
 
 ### Technologies utilisées
 
-HTML : Structure de l'application.
+**HTML** : Structure de l'application.
 
-CSS : Style pour une interface utilisateur attrayante.
+**CSS** : Style pour une interface utilisateur attrayante.
 
-JavaScript : Fonctionnalités et interactions dynamiques.
+**JavaScript** : Fonctionnalités et interactions dynamiques.
 
-Visual Studio Code : Environnement de développement.
+**Visual Studio Code** : Environnement de développement.
 
 ### Installation et configuration
 
-Suivez ces étapes pour exécuter le projet en local :
+Suivez ces étapes pour exécuter le projet en local !!!
 
 ## Cloner le dépôt :
 
 git clone https://github.com/alrifaige1/ToDoList.git
 
-Naviguer dans le répertoire du projet :
+## Naviguer dans le répertoire du projet :
 
 cd ToDoList
 
-Ouvrir dans Visual Studio Code :
+## Ouvrir dans Visual Studio Code :
 
 code .
 
@@ -47,15 +62,15 @@ Ouvrez le fichier index.html dans votre navigateur web préféré pour commencer
 
 Utilisation
 
-Inscription :
+- Inscription :
 
 Créez un nouveau compte en fournissant un nom d'utilisateur et un mot de passe.
 
-Connexion :
+- Connexion :
 
 Accédez à votre compte avec vos identifiants.
 
-Gestion des tâches :
+- Gestion des tâches :
 
 Ajoutez des tâches en précisant des détails tels que le nom et la date limite.
 
@@ -63,7 +78,7 @@ Modifiez ou supprimez des tâches si nécessaire.
 
 Marquez les tâches comme terminées pour suivre vos progrès.
 
-Structure du projet
+# Structure du projet
 
 |-- index.html         # Fichier HTML principal
 |-- styles/            # Dossier contenant les fichiers CSS
@@ -73,7 +88,7 @@ Structure du projet
 |-- assets/            # Dossier pour les images et autres ressources
 
 
-Améliorations futures
+## Améliorations futures
 
 Implémenter une fonctionnalité backend avec une technologie telle que Node.js ou Python (Django/Flask).
 
@@ -83,25 +98,13 @@ Introduire la catégorisation et le marquage des tâches.
 
 Ajouter des notifications pour les échéances des tâches.
 
-Contribution
+
+### Contribution
 
 Les contributions sont les bienvenues ! Suivez ces étapes pour contribuer :
 
 Créer le dépôt.
 
-Créez une nouvelle branche :
 
-git checkout -b feature/nom-de-votre-fonctionnalite
-
-Validez vos modifications :
-
-git commit -m "Ajoutez votre message ici"
-
-Poussez la branche :
-
-git push origin feature/nom-de-votre-fonctionnalite
-
-Créez une pull request.
-
-✨ Visitez le dépôt et explorez le projet !
+# ✨ Visitez le dépôt et explorez le projet !
 
