@@ -20,10 +20,10 @@ git push origin feature/nom-de-votre-fonctionnalite
 ```
 ##### Créez une pull request.
 
-### Aperçu
+## Aperçu
 Ce projet est une application web conçue pour aider les utilisateurs ou les entreprises à gérer des tâches efficacement. L'application permet aux utilisateurs de créer et de gérer des comptes, de se connecter et d'organiser leurs listes de tâches facilement. Elle est réalisée en HTML, CSS et JavaScript et a été développée avec Visual Studio Code.
 
-#### Fonctionnalités
+### Fonctionnalités
 
 🧑‍💻 ****Gestion des comptes utilisateurs**** : Créer, mettre à jour et supprimer des comptes utilisateurs.
 
@@ -33,7 +33,7 @@ Ce projet est une application web conçue pour aider les utilisateurs ou les ent
 
 📱 ****Design réactif**** : Optimisé pour une utilisation sur ordinateurs et appareils mobiles.
 
-#### Technologies utilisées
+### Technologies utilisées
 
 ****HTML**** : Structure de l'application.
 
@@ -46,23 +46,23 @@ Ce projet est une application web conçue pour aider les utilisateurs ou les ent
 ### Installation et configuration
 Suivez ces étapes pour exécuter le projet en local !!!
 
-## Cloner le dépôt :
+#### Cloner le dépôt :
 ```markdown
 git clone https://github.com/alrifaige1/ToDoList.git
 ```
-## Naviguer dans le répertoire du projet :
+#### Naviguer dans le répertoire du projet :
 ```markdown
 cd ToDoList
 ```
-## Ouvrir dans Visual Studio Code :
+#### Ouvrir dans Visual Studio Code :
 ```markdown
 code .
 ```
 
-Exécuter l'application :
+### Exécuter l'application :
 Ouvrez le fichier index.html dans votre navigateur web préféré pour commencer à utiliser l'application.
 
-Utilisation
+### ➡️ 💥 Utilisation 
 
 - Inscription :
 
