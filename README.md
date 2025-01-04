@@ -1,8 +1,8 @@
 # 🌟  Application web de Gestion de ToDoList pour une entreprise ou utilisateur
 
 ## 🚀 Bienvenue sur mon projet GitHub !
-```
-## Contribution
+
+### Contribution
 Les contributions sont les bienvenues ! Suivez ces étapes pour contribuer :
 Créer le dépôt.
 
@@ -16,11 +16,11 @@ git commit -m "Ajoutez votre message ici"
 git push origin feature/nom-de-votre-fonctionnalite
 
 # Créez une pull request.
-```
-## Aperçu
+
+### Aperçu
 Ce projet est une application web conçue pour aider les utilisateurs ou les entreprises à gérer des tâches efficacement. L'application permet aux utilisateurs de créer et de gérer des comptes, de se connecter et d'organiser leurs listes de tâches facilement. Elle est réalisée en HTML, CSS et JavaScript et a été développée avec Visual Studio Code.
 
-## Fonctionnalités
+### Fonctionnalités
 
 🧑‍💻 Gestion des comptes utilisateurs : Créer, mettre à jour et supprimer des comptes utilisateurs.
 
